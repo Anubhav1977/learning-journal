@@ -1,14 +1,13 @@
-import React from "react";
-import avatar from "../assets/avatar.jpg";
+import "./UserCard.css";
 
 // A component is like a normal fucntion of JS which return html code which we can use anywhere and also reuse it with parameters
-function UserCard() {
+function UserCard(props) {
   return (
     // In js class is reserved word so we cant use the normal class attribute of html here, instead we use "className"
-    <div className="user-container">
-      <p id="user-name">Anubhav Garg</p>
-      <img id="user-img" src={avatar} alt="avatar" />
-      <p id="user-description">Description of Anubhav Garg</p>
+    <div className="user-container" style={props.style}>
+      <p id="user-name">{props.name}</p>
+      <img id="user-img" src={props.img} alt={props.name} />
+      <p id="user-description">{props.desc}</p>
     </div>
   );
 }
