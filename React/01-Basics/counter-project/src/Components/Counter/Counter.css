@@ -1,0 +1,27 @@
+.ctr-container {
+  background-color: antiquewhite;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px 1px;
+}
+
+
+#btn-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  background-color: purple;
+  color: white;
+  font-weight: bold;
+  padding: 7px 20px;
+  border-radius: 0.5rem;
+}
+
+button:hover {
+  background-color: mediumorchid;
+}
