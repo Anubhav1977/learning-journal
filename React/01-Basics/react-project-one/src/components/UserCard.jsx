@@ -9,6 +9,7 @@ function UserCard(props) {
       <p id="user-name">{props.name}</p>
       <img id="user-img" src={props.img} alt={props.name} />
       <p id="user-description">{props.desc}</p>
+      <p>{props.childern}</p>
     </div>
   );
 }

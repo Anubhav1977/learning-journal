@@ -1,0 +1,11 @@
+#img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#vk-img {
+  height: 250px;
+  width: max-content;
+  border-radius: 10px;
+}

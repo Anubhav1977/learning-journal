@@ -1,0 +1,16 @@
+#show-btn,
+#hide-btn {
+  background-color: antiquewhite;
+  padding: 8px 20px;
+  border-radius: 10px;
+}
+
+#hide-btn {
+  margin-top: 1rem;
+  background-color: lightgray;
+}
+
+#show-btn:hover,
+#hide-btn:hover {
+  background-color: white;
+}
